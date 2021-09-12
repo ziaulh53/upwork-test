@@ -1,10 +1,11 @@
 import React from "react";
-import { HeroSection } from "./components";
+import { Faq, HeroSection } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <HeroSection />
+      {/* <HeroSection /> */}
+      <Faq/>
     </div>
   );
 }
