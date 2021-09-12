@@ -12,7 +12,7 @@ const HeroSection = () => {
             </p>
             <Title
               text="Your clients rely on you. Lawyers rely on Dossier direct."
-              textTransform="uppercase"
+              className="text-center hero-title"
             />
           </Col>
         </Row>
