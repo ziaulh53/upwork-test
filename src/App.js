@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { SharedBtn, Title } from "./components/shared";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Row>
+          <Col xs={12} md={8}>
+            <SharedBtn
+              text="Start free trial"
+              style={{ padding: "0.875rem 1.813rem" }}
+            />
+            <Title text="sdfl sadf" center fontSize={3} fontWeight={500} />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
