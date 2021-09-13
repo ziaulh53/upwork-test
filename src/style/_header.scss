@@ -1,0 +1,50 @@
+#header {
+  background: linear-gradient(105.35deg, #dae6f6 6.4%, #dae0f6 100%);
+  .header-collaps{
+      display: flex;
+      justify-content: space-between;
+  }
+  .nav-logo {
+    margin-right: 3.619rem;
+    img {
+      width: 9.886rem;
+      height: 1.222rem;
+    }
+  }
+  .left-menu {
+    .navbar-text {
+      font-weight: 700;
+      font-size: 0.875rem;
+      line-height: 1.138rem;
+      margin-right: 1rem;
+      color: #1f295a;
+    }
+  }
+  .right-menu {
+    margin-top: 1.563rem;
+    .navbar-text {
+      font-weight: 700;
+      font-size: 0.875rem;
+      line-height: 1.138rem;
+      margin-right: 1rem;
+      color: #455ECE;
+    }
+    .login-button{
+        padding: 0.813rem 3.594rem;
+        font-weight: 600;
+        font-size: 0.875;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .header-collaps{
+        display: flex;
+        justify-content: end;
+    }
+      .left-menu{
+          display: none;
+      }
+      .nav-logo{
+          margin-top: 9px;
+      }
+  }
+}
