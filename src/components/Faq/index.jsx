@@ -116,6 +116,7 @@ const Faq = () => (
             </div>
             <div className="get-buttons">
               <SharedBtn text="Get Started"/>
+              <a>See Dossier Dirrect in Action <span><img src="./img/arrow.png" alt="" /></span></a>
             </div>
           </div>
         </Col>

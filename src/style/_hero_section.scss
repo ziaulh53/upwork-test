@@ -1,4 +1,5 @@
 #hero-section {
+  background: linear-gradient(105.35deg, #dae6f6 6.4%, #dae0f6 100%);
   .upper-desc {
     text-transform: uppercase;
     font-weight: 600;
@@ -12,5 +13,57 @@
     font-size: 2.5rem;
     line-height: 3.25rem;
     text-transform: uppercase;
+    max-width: 45rem;
+    margin: auto;
+  }
+  .bottom-desc {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.938rem;
+    text-align: center;
+    margin-top: 0.563rem;
+  }
+  .hero-btn {
+    padding: 0.875rem 1.813rem;
+  }
+  .email-input {
+    width: 25rem;
+    background: #fff;
+    border-radius: 1.25rem;
+    margin: auto;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
+    margin-top: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+    input {
+      padding: 0.7rem 1.563rem;
+      width: 64%;
+      border: none;
+      border-radius: 1.25rem;
+      -webkit-border-radius: 1.25rem;
+      -moz-border-radius: 1.25rem;
+      -ms-border-radius: 1.25rem;
+      -o-border-radius: 1.25rem;
+    }
+  }
+  .hero-features {
+    padding: 0;
+    list-style: none;
+    margin: 0.875rem 0 8.063rem;
+    li {
+      display: inline-block;
+      margin: 0 10px;
+      img {
+        width: 0.938rem;
+        margin-right: 5px;
+      }
+      span {
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+      }
+    }
   }
 }
