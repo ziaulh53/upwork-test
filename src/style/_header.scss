@@ -1,5 +1,9 @@
 #header {
   background: linear-gradient(105.35deg, #dae6f6 6.4%, #dae0f6 100%);
+  .header-collaps{
+      display: flex;
+      justify-content: space-between;
+  }
   .nav-logo {
     margin-right: 3.619rem;
     img {
@@ -32,6 +36,10 @@
     }
   }
   @media screen and (max-width: 767px){
+    .header-collaps{
+        display: flex;
+        justify-content: end;
+    }
       .left-menu{
           display: none;
       }

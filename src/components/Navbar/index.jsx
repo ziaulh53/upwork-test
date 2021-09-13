@@ -10,7 +10,7 @@ const Header = () => (
           <img src="./img/logo.png" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-between align-items-center">
+        <Navbar.Collapse className="header-collaps">
           <div className="mt-2 left-menu">
             <Navbar.Text>Pricing</Navbar.Text>
             <Navbar.Text>FAQs</Navbar.Text>
