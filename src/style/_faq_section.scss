@@ -92,8 +92,16 @@
       }
     }
   }
-  @media screen and (max-width: 475px) {
+}
+
+@media screen and (max-width: 475px) {
+  #faq-section {
+    .faq-title,
+    .faq-list {
+      display: none;
+    }
     .get-start {
+      margin-top: 3rem;
       p {
         margin: auto;
         width: 18.563rem;
