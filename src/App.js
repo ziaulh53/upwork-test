@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroSection, Service, WorkCriteria } from "./components";
+import { HeroSection, Service, WorkCriteria, Faq, Footer } from "./components";
 
 function App() {
   return (
@@ -7,6 +7,8 @@ function App() {
       <HeroSection />
       <Service />
       <WorkCriteria />
+      <Faq />
+      <Footer />
     </div>
   );
 }
