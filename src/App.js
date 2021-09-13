@@ -1,11 +1,12 @@
 import React from "react";
-import { Faq, HeroSection } from "./components";
+import { Faq, Footer, HeroSection } from "./components";
 
 function App() {
   return (
     <div className="App">
       {/* <HeroSection /> */}
       <Faq/>
+      <Footer/>
     </div>
   );
 }

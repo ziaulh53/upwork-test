@@ -2,5 +2,82 @@
     background: linear-gradient(105.35deg, #DAE6F6 6.4%, #DAE0F6 100%);
     .faq-title{
         margin: 6.93rem 0 4.43rem 0;
+        .title-text{
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+    }
+    .faq-list{
+        margin-bottom: 9.063rem;
+        .faq-question{
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.95rem;
+            text-transform: initial;
+            margin-left: 2rem;
+        }
+        .accordion-item, .accordion-button, .accordion-header{
+            background: none;
+            border: none;
+            box-shadow: none;
+            padding: 0;
+        }
+        .accordion-item{
+            padding: 1.5rem;
+        }
+        .accordion-header{
+            margin-bottom: 1.063rem;
+        }
+        .accordion-body{
+            padding: 0 2rem;
+            p{
+                font-size: 1.125;
+                line-height: 1.438rem;
+                color: #1F295A;
+            }
+        }
+        .accordion-button::after {
+            flex-shrink: 0;
+            position: absolute;
+            top: 7px;
+            content: "";
+            background-repeat: no-repeat;
+            background-size: 1.25rem;
+            transition: transform .2s ease-in-out;
+        }
+    }
+    .get-start{
+         h2{
+            color:#455ECE;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: initial;
+            margin-bottom: 0.93rem;
+        }
+        .get-start-content{
+            max-width: 31.563rem;
+            margin: auto;
+            margin-bottom: 1.313rem;
+           p{
+            text-align: center;
+            color: #575757;
+            font-size: 0.875rem;
+            font-weight: 500;
+            line-height: 1.313;
+           }
+        }
+        .get-buttons{
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            width: 15rem;
+            margin-bottom: 9.375rem;
+            button{
+                padding: 0.813rem 2.281rem;
+                font-size: 0.875;
+                font-weight: 700;
+            }
+        }
     }
 }
