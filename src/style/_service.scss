@@ -1,0 +1,30 @@
+#service {
+  background: linear-gradient(105.35deg, #dae6f6 6.4%, #dae0f6 100%);
+  .section-title {
+    max-width: 36rem;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.625rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin: auto;
+  }
+  .single-service {
+    margin: 2.5rem 0;
+    img {
+      width: 33.75rem;
+    }
+    .service-title {
+      font-size: 2.5rem;
+      line-height: 3.75rem;
+      font-weight: 500;
+      margin-bottom: 0.625rem;
+      max-width: 28rem;
+    }
+    .service-desc {
+      font-size: 1.25rem;
+      line-height: 1.875rem;
+      max-width: 33rem;
+    }
+  }
+}
