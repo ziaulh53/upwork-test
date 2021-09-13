@@ -1,0 +1,29 @@
+#work-criteria {
+  background-color: #f0f0f0;
+  .wrok-criteria-title {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.625rem;
+    text-align: center;
+    margin-top: 7.438rem;
+  }
+  .sngle-criteria {
+    text-align: center;
+    img {
+      margin: 8.188rem 0 1.375rem;
+    }
+  }
+  .single-criteria-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.938rem;
+    text-align: center;
+    color: #455ece;
+  }
+  .work-criteria-desc {
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    margin: 0.813rem auto 7.813rem;
+    max-width: 19rem;
+  }
+}

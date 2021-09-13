@@ -16,6 +16,10 @@ const Service = () => (
         {services.map((service, idx) => (
           <SingleService {...service} idx={idx} />
         ))}
+        <Title
+          text="Can be used across all industries"
+          className="section-footer-title"
+        />
       </Row>
     </Container>
   </section>

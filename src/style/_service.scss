@@ -1,7 +1,7 @@
 #service {
   background: linear-gradient(105.35deg, #dae6f6 6.4%, #dae0f6 100%);
   .section-title {
-    max-width: 36rem;
+    max-width: 40.813rem;
     font-weight: bold;
     font-size: 2rem;
     line-height: 2.625rem;
@@ -19,12 +19,21 @@
       line-height: 3.75rem;
       font-weight: 500;
       margin-bottom: 0.625rem;
-      max-width: 28rem;
+      max-width: 31.375rem;
     }
     .service-desc {
       font-size: 1.25rem;
       line-height: 1.875rem;
       max-width: 33rem;
     }
+  }
+  .section-footer-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    min-width: 50.938rem;
+    line-height: 3.75rem;
+    text-align: center;
+    margin: 1.875rem auto 3.75rem;
+    padding: 0;
   }
 }
