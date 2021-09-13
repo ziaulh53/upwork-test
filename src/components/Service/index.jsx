@@ -14,7 +14,7 @@ const Service = () => (
           />
         </Col>
         {services.map((service, idx) => (
-          <SingleService {...service} idx={idx} />
+          <SingleService {...service} idx={idx} key={idx} />
         ))}
         <Title
           text="Can be used across all industries"
