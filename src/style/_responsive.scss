@@ -1,0 +1,68 @@
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+  #service {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+    }
+    .single-service img {
+      width: 100%;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      margin-bottom: 0.938rem;
+    }
+  }
+}
+@media screen and (max-width: 516px) {
+  #hero-section {
+    .email-input {
+      width: 20rem;
+    }
+    .email-input input {
+      width: 50%;
+    }
+    .hero-features li {
+      display: -webkit-inline-box;
+      margin: 0 5px;
+      max-width: 21%;
+    }
+  }
+}
+@media screen and (max-width: 475px) {
+  // faq section
+  #faq-section {
+    .faq-title,
+    .faq-list {
+      display: none;
+    }
+    .get-start {
+      margin-top: 3rem;
+      p {
+        margin: auto;
+        width: 18.563rem;
+        text-align: center;
+        margin-bottom: 1.375rem;
+      }
+      .get-buttons {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+        button {
+          margin: auto;
+          padding: 0.813rem 7.781rem;
+          font-size: 0.875;
+          font-weight: 700;
+          margin-bottom: 1.625rem;
+          display: block;
+        }
+      }
+    }
+  }
+}

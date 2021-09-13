@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { Title } from "../shared";
 
 const SingleService = ({ title, desc, idx }) => {
-  const shouldSwap = idx % 2;
-  console.log(shouldSwap);
+  const [width, setWidth] = useState(0);
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, [window.innerWidth]);
+  
+  console.log(width);
+  const shouldSwap = width > 767 ? idx % 2 : 0;
   return (
-    <Col md="12" key={idx}>
+    <Col md="12">
       <div className="single-service">
         <Row>
           {shouldSwap === 0 ? (

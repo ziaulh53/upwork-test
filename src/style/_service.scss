@@ -13,7 +13,13 @@
     margin: 2.5rem 0;
     img {
       width: 33.75rem;
-    }
+      max-width: 100%;
+      border-radius: 1.25rem;
+      -webkit-border-radius: 1.25rem;
+      -moz-border-radius: 1.25rem;
+      -ms-border-radius: 1.25rem;
+      -o-border-radius: 1.25rem;
+}
     .service-title {
       font-size: 2.5rem;
       line-height: 3.75rem;
@@ -30,7 +36,7 @@
   .section-footer-title {
     font-size: 2.5rem;
     font-weight: 500;
-    min-width: 50.938rem;
+    max-width: 50.938rem;
     line-height: 3.75rem;
     text-align: center;
     margin: 1.875rem auto 3.75rem;
